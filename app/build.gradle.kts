@@ -26,6 +26,7 @@ java {
 application {
     // Define the main class for the application.
     mainClass = "sh.roadmap.tasktracker.App"
+    applicationName = "task-cli"
 }
 
 tasks.named<Test>("test") {

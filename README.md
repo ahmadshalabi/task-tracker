@@ -2,10 +2,17 @@
 
 Project page: https://roadmap.sh/projects/task-tracker
 
-## Run
-
 Requires JDK 25.
+
+## Run
 
 ```sh
 ./gradlew run
+```
+
+## Install as `task-cli`
+
+```sh
+./gradlew installDist
+app/build/install/task-cli/bin/task-cli
 ```
