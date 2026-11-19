@@ -1,10 +1,61 @@
-# Ignore Gradle project-specific cache directory
-.gradle
+# Gradle
+.gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-# Ignore Gradle build output directory
-build
+# Kotlin
+.kotlin/
 
-# Ignore Kotlin plugin data
-.kotlin
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
 
-.idea
+# Eclipse / NetBeans
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+nbproject/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+# Java artifacts
+*.class
+*.log
+hs_err_pid*
+replay_pid*
+*.jar
+*.war
+*.ear
+!gradle/wrapper/gradle-wrapper.jar
+
+# Secrets / local config
+.env
+.env.*
+*.pem
+*.key
+local.properties
+
+# Local task data
+tasks.json
+*.db
