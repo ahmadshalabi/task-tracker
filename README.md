@@ -1,5 +1,7 @@
 # Task Tracker
 
+[![CI](https://github.com/ahmadshalabi/task-tracker/actions/workflows/ci.yml/badge.svg)](https://github.com/ahmadshalabi/task-tracker/actions/workflows/ci.yml)
+
 A command-line task tracker (`task-cli`) built with Java and Gradle, based on
 the [roadmap.sh Task Tracker project](https://roadmap.sh/projects/task-tracker).
 
