@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-11-20
+
+### Added
+
+- Self-contained release archives for Linux (x64), macOS (Apple Silicon) and
+  Windows (x64). They bundle a trimmed Java runtime, so no JRE or JDK needs to
+  be installed.
+
 ## [0.1.0] - 2026-11-19
 
 ### Added
@@ -14,5 +22,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial release of `task-cli`, a placeholder command-line application that
   prints a greeting. Task management commands are not implemented yet.
 
-[Unreleased]: https://github.com/ahmadshalabi/task-tracker/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/ahmadshalabi/task-tracker/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/ahmadshalabi/task-tracker/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/ahmadshalabi/task-tracker/releases/tag/v0.1.0
