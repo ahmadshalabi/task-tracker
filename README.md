@@ -23,6 +23,8 @@ the [roadmap.sh Task Tracker project](https://roadmap.sh/projects/task-tracker).
 ./gradlew test
 ```
 
+`./gradlew spotlessApply` formats the code.
+
 ## Install as `task-cli`
 
 ```sh
