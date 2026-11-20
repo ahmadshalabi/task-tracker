@@ -61,7 +61,7 @@ jobs:
           java-version: 25
       - uses: gradle/actions/setup-gradle@v6
       # Tests and formatting run once (Linux); other OSes only need the jars.
-      - run: ./gradlew ${{ runner.os == 'Linux' && 'build' || 'installDist' }}
+      - run: ./gradlew ${{ runner.os == 'Linux' && 'build installDist' || 'installDist' }}
       - name: Build self-contained app image
         run: |
           jar="$(basename app/build/install/task-cli/lib/app-*.jar)"
